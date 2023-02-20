@@ -1,4 +1,4 @@
-# Learn Docker
+# Docker & K8s
 [Docker official tutorial on AWS](https://docker-curriculum.com/)  
 [Docker 101](https://www.docker.com/101-tutorial/)  
 [Introduction to Docker and Kubernetes on GCP with Hands-on Configuration ](https://medium.com/google-cloud/introduction-to-docker-and-kubernets-on-gcp-with-hands-on-configuration-part-1-docker-3d9709ee9f6a)  
@@ -12,6 +12,10 @@
     - build complicated application faster, some complicated application which contains Web Server, Application Server and Database.
     - docker-compose.yml
 
+- Kubernetes (K8s)
+  - Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications.
+  - A set of APIs which run on top of Docker.
+
 - Docker Swarm
 
 - Docker image
@@ -21,8 +25,6 @@
 - Docker volume
 
 - Nginx
-
-- Kubernetes
 
 - devops
 
