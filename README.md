@@ -5,17 +5,35 @@
 
 # Terminology
 - Docker : an open-source project that automates the deployment of software applications inside containers by providing an additional layer of abstraction and automation of OS-level virtualization on Linux.  
+    - build an application faster.
+    - Dockerfile
+
+- Docker compose : When we use Docker Compose, it just needs a docker-compose.yaml file instead of Dockerfile.  
+    - build complicated application faster, some complicated application which contains Web Server, Application Server and Database.
+    - docker-compose.yml
+
 - Docker Swarm
+
 - Docker image
+
 - Docker network
+
 - Docker volume
+
 - Nginx
+
 - Kubernetes
+
 - devops
 
-# Docker advantages
+- WordPress : a free and open-source content management system written in hypertext preprocessor language and paired with a MySQL or MariaDB database with supported HTTPS.  
+
+# Advantages
+Docker:
 1. update dockerfile to keep original production app working, while deploying new app version in another port.
-2. 
+
+Docker compose:
+1. 
 
 # Usage
 ## prepare Dockerfile
@@ -67,4 +85,9 @@ docker stop $(docker ps -q)
 docker rm $(docker ps -aq)
 ```
 
-## docker hub
+## docker compose
+The docker-compose.yaml file will contain the information about the containers, networks and volumes.  
+Run docker-compose.yaml file:   
+```
+sudo docker-compose up -d
+```
