@@ -8,3 +8,9 @@ config gcloud alias. Refer to [this](https://stackoverflow.com/questions/6133545
 ```
 source ~/.bash_profile
 ```
+on console, SSH -> view gcloud commands, and paste below in terminal
+```
+sudo gcloud auth login
+sudo gcloud compute ssh --zone "us-central1-a" "instance-1"  --project "steady-shard-332922"
+```
+
